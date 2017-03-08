@@ -13,3 +13,6 @@ cmd="cd '`find \"$path_to_find\" -type d | grep -P \"$regexp\" | head -n1`'"
 echo "$cmd"
 eval "$cmd"
 }
+
+
+alias em='emacs -nw'
