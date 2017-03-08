@@ -1,4 +1,5 @@
 source ./config.sh
+source ./git.sh
 
 function cdf(){
 #echo $#
