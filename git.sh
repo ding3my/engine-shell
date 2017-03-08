@@ -1,1 +1,5 @@
 alias gita='git add'
+alias gitamp='git add . ; git commit -m"`date`" ; git push origin master'
+alias gitm='git commit -m"`date`"'
+alias gitmp='git commit -m"`date`" ; git push origin master'
+alias gitp='git push origin master'
