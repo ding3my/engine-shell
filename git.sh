@@ -1,0 +1,1 @@
+alias gita='git add'
