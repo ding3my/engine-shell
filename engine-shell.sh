@@ -1,5 +1,6 @@
 source ./config.sh
 source ./git.sh
+source ./bird.sh
 
 function cdf(){
 #echo $#
