@@ -1,7 +1,0 @@
-alias gita='git add'
-alias gitacp='git add . ; git commit -m"`date`" ; git push origin master'
-alias gitc='git commit -m"`date`"'
-alias gitcp='git commit -m"`date`" ; git push origin master'
-alias gitp='git push origin master'
-alias gitpl='git pull'
-alias gitf='git fetch'
