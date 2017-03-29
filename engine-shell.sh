@@ -91,5 +91,5 @@ alias rpmrg='rpm -qa| grep -i'
 # # 23 Source dnf
 alias dnfr='dnf list'
 alias dnfrg='dnf list| grep -i'
-alias dnfi='sudo dnf install'
-alias dnfr='sudo dnf remove'
+alias dnfc='sudo dnf install'
+alias dnfd='sudo dnf remove'
