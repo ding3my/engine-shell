@@ -27,7 +27,7 @@ function gen_re_la(){ # generate regex lookahead
 alias lsa='ls -ahl' # ls all files including .*
 alias dua='du -ah --max-depth=1' # du each file's size including .* file
 function fd1(){ find "$1" -maxdepth 1 -mindepth 1 ; }
-function fdg(){ sudo find "$1" | grep -i "$2" ; }
+function fdr(){ sudo find "$1" | grep -i "$2" ; }
 alias mvt='d=`date +%F_%T` ; mkdir ~/trash/$d -p ;sudo mv -f -t ~/trash/$d' # move to trash 切忌用单引号
 alias cpr='cp -r'
 
